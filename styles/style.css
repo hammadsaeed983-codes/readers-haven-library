@@ -87,7 +87,7 @@ footer {
     }
 }
 
-/* === PLACEHOLDER: TEAM LEAD (INDEX) STYLES === */
+
 
 
 /* === PLACEHOLDER: HASSAN (COLLECTIONS) STYLES === */
@@ -106,23 +106,25 @@ footer {
     }
 }
 
-  display: inline-block; 
+  
+/* === SAMEER: SERVICES PAGE STYLES === */
+.badge {
+    display: inline-block;
+    margin-top: 0.75rem;
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
 
-  margin-top: 0.75rem; 
-
-  background-color: #e0e7ff; 
-
-  color: #1e3a8a; 
-
-  padding: 0.25rem 0.6rem; 
-
-  border-radius: 999px; 
-
-  font-size: 0.85rem; 
-
-  font-weight: 600; 
-
-} 
+@media (max-width: 600px) {
+    .badge {
+        display: block;
+        text-align: center;
+    }
+}
 
  
 
@@ -222,7 +224,7 @@ footer {
 }
 
 
-/* === PLACEHOLDER: SAMEER (SERVICES) STYLES === */
+
 
 
 /* === JUNAID: CONTACT PAGE STYLES === */
