@@ -1,16 +1,13 @@
+
 {
   "name": "readers-haven-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --dist-dir dist --public-url ./"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "parcel": "^2.12.0"
   }
 }
