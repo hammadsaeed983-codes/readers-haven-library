@@ -225,4 +225,41 @@ footer {
 /* === PLACEHOLDER: SAMEER (SERVICES) STYLES === */
 
 
-/* === PLACEHOLDER: JUNAID (CONTACT) STYLES === */
+/* === JUNAID: CONTACT PAGE STYLES === */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.contact-form button {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2563eb;
+}
+
+@media (max-width: 600px) {
+    .contact-form button {
+        width: 100%;
+    }
+}
+
+
