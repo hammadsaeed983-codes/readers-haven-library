@@ -93,7 +93,88 @@ footer {
 /* === PLACEHOLDER: HASSAN (COLLECTIONS) STYLES === */
 
 
-/* === PLACEHOLDER: MUEEZ (MEMBERSHIP) STYLES === */
+/* === MUEEZ: MEMBERSHIP PAGE STYLES === */
+.membership-plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    align-items: stretch;
+}
+
+.membership-card {
+    border-top: 4px solid #2563eb;
+}
+
+.membership-card-featured {
+    border-top-color: #059669;
+}
+
+.plan-label {
+    color: #64748b;
+    font-size: 0.9rem;
+    min-height: 1.6em;
+}
+
+.membership-card h3 {
+    color: #1e3a8a;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+}
+
+.price {
+    margin: 0.75rem 0 1.25rem;
+    color: #047857;
+}
+
+.price-amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.price-period {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.plan-details {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.plan-details div {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 0.65rem;
+}
+
+.plan-details dt {
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.plan-details dd {
+    font-weight: 600;
+}
+
+.membership-note {
+    margin-top: 1.5rem;
+    color: #475569;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .membership-plans {
+        grid-template-columns: 1fr;
+    }
+
+    .membership-card {
+        padding: 1.25rem;
+    }
+
+    .price-amount {
+        font-size: 1.35rem;
+    }
+}
 
 
 /* === PLACEHOLDER: SAMEER (SERVICES) STYLES === */
