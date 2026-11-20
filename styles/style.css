@@ -128,17 +128,7 @@ footer {
 
  
 
-@media (max-width: 600px) { 
 
-  .badge { 
-
-    display: block; 
-
-    text-align: center; 
-
-  } 
-
-}
 
 /* === MUEEZ: MEMBERSHIP PAGE STYLES === */
 .membership-plans {
@@ -229,21 +219,6 @@ footer {
 
 /* === JUNAID: CONTACT PAGE STYLES === */
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    margin-top: 0.5rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 0.6rem;
-    border: 1px solid #cbd5e1;
-    border-radius: 4px;
-    font-family: inherit;
-}
-
 .contact-form button {
     background-color: #1e3a8a;
     color: #ffffff;
@@ -255,7 +230,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #2563eb;
+    background-color: #1e40af; /* pick any hover colour */
 }
 
 @media (max-width: 600px) {
@@ -263,5 +238,4 @@ footer {
         width: 100%;
     }
 }
-
 
